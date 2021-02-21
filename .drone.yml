@@ -1,9 +1,0 @@
-%YAML 1.1
----
-pipeline:
-  build:
-    commands:
-      - python --version
-      - pip install --user cortexutils==2.0.0
-      - template/template.py job
-    image: python:3.8.1-alpine3.11
