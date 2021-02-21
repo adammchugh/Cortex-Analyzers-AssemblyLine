@@ -1,0 +1,1 @@
+{"config": {"check_pap": true, "check_tlp": true, "delay": 1, "max_pap": 2, "max_tlp": 2}, "data": "8.8.8.8", "dataType": "ip", "pap": 1, "tlp:": 1}

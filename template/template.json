@@ -1,0 +1,27 @@
+{
+  "author": "Ghislain Bernard",
+  "baseConfig": "template",
+  "command": "template/template.py",
+  "config": {
+    "service": "get"
+  },
+  "configurationItems": [
+    {
+      "defaultValue": 60,
+      "description": "Sleeping time before analysis (in seconds)",
+      "multi": false,
+      "name": "delay",
+      "required": false,
+      "type": "number"
+    }
+  ],
+  "dataTypeList": [
+    "domain",
+    "ip"
+  ],
+  "description": "Template of Cortex analyzer",
+  "license": "MIT",
+  "name": "template",
+  "url": "https://github.com/ghislain-bernard/cortex-analyzer-template",
+  "version": "0.0.1"
+}
