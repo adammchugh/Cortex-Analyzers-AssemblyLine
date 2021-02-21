@@ -1,7 +1,7 @@
 {
-  "author": "Ghislain Bernard",
-  "baseConfig": "template",
-  "command": "template/template.py",
+  "author": "Adam McHugh",
+  "baseConfig": "assemblyline",
+  "command": "assemblyline/assemblyline.py",
   "config": {
     "service": "get"
   },
@@ -16,10 +16,9 @@
     }
   ],
   "dataTypeList": [
-    "domain",
-    "ip"
+    "file"
   ],
-  "description": "Template of Cortex analyzer",
+  "description": "Assemblyline Cortex Analyzer",
   "license": "MIT",
   "name": "template",
   "url": "https://github.com/ghislain-bernard/cortex-analyzer-template",
